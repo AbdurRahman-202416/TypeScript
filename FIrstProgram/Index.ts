@@ -1,5 +1,5 @@
 // Declaring variables with explicit types
-let name: string = 'John'
+let Name: string = 'John'
 let age: number = 30
 let isActive: boolean = true
 
@@ -12,5 +12,5 @@ function greet (): void {
   console.log('Hello, world!')
 }
 
-console.log(name) // Output: John
+console.log(Name) // Output: John
 greet() // Output: Hello, world!
