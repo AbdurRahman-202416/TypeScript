@@ -1,13 +1,13 @@
-//string
-var username = 'John Doe';
-console.log(username);
-//number
+// Declaring variables with explicit types
+var name = 'John';
 var age = 30;
-console.log(age);
-//boolean
-var isStudent = true;
-console.log(isStudent);
-function sum(num1, num2) {
-    return num1 + num2;
+var isActive = true;
+// Using `any` type (not recommended for production code)
+var randomValue = 10;
+randomValue = 'Hello';
+// `void` is used for functions that do not return a value
+function greet() {
+    console.log('Hello, world!');
 }
-console.log(sum(1, 2));
+console.log(name); // Output: John
+greet(); // Output: Hello, world!

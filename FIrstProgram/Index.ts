@@ -1,15 +1,16 @@
-//string
-let username: string = 'John Doe'
-console.log(username)
-//number
+// Declaring variables with explicit types
+let name: string = 'John'
 let age: number = 30
-console.log(age)
+let isActive: boolean = true
 
-//boolean
-let isStudent: boolean = true
-console.log(isStudent)
+// Using `any` type (not recommended for production code)
+let randomValue: any = 10
+randomValue = 'Hello'
 
-function sum (num1: number, num2: number): number {
-  return num1 + num2
+// `void` is used for functions that do not return a value
+function greet (): void {
+  console.log('Hello, world!')
 }
-console.log(sum(1, 2))
+
+console.log(name) // Output: John
+greet() // Output: Hello, world!
