@@ -78,4 +78,4 @@ I combined TypeScript with DOM APIs to build type-safe web projects. Examples in
 
 
 
-   Thank you for checking out my JavaScript Practice repository! 🚀
+   Thank you for checking out my TypeScript Practice repository! 🚀
