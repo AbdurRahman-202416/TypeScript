@@ -33,13 +33,15 @@ console.log(ShowDetails(studentDetails)); // Output: Shanto Ahmed 26 Dhaka
 })();
 
 
-type nameType = {
+ type nameType = {
     firstName: string;
     lastName: string;
     };
+
     type ageType = {
     age: number;
     };
+//uisng intersection type
     let employeeDetails: nameType & ageType = {
     firstName: "Shanto",
     lastName: "Ahmed",

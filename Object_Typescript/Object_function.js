@@ -23,6 +23,7 @@ console.log(ShowDetails(studentDetails)); // Output: Shanto Ahmed 26 Dhaka
     };
     console.log(ShowDetails(studentDetails)); // Output: Shanto Ahmed 26 Dhaka
 })();
+//uisng intersection type
 let employeeDetails = {
     firstName: "Shanto",
     lastName: "Ahmed",
