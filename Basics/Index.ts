@@ -1,16 +1,16 @@
 // Declaring variables with explicit types
 let Name: string = 'John'
-let age: number = 30
-let isActive: boolean = true
+let PersonAge: number = 30
+let isActiveBoolean: boolean = true 
 
 // Using `any` type (not recommended for production code)
-let randomValue: any = 10
-randomValue = 'Hello'
+let random: any = 10
+random = 'Hello'
 
 // `void` is used for functions that do not return a value
-function greet (): void {
+function print (): void {
   console.log('Hello, world!')
 }
 
 console.log(Name) // Output: John
-greet() // Output: Hello, world!
+print() // Output: Hello, world!

@@ -1,14 +1,14 @@
+"use strict";
 // Declaring variables with explicit types
-var Name = 'John';
-var age = 30;
-var isActive = true;
+let Name = 'John';
+let PersonAge = 30;
+let isActiveBoolean = true;
 // Using `any` type (not recommended for production code)
-var randomValue = 10;
-randomValue = 'Hello';
-console.log({ randomValue: randomValue });
+let random = 10;
+random = 'Hello';
 // `void` is used for functions that do not return a value
-function greet() {
+function print() {
     console.log('Hello, world!');
 }
 console.log(Name); // Output: John
-greet(); // Output: Hello, world!
+print(); // Output: Hello, world!

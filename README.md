@@ -73,7 +73,7 @@ I combined TypeScript with DOM APIs to build type-safe web projects. Examples in
 
 1. **Clone the Repository**  
    ```bash  
-   git clone https://github.com/yourusername/typescript-practices.git  
+   git clone https://github.com/Abdurrahman-202416/typescript-practices.git  
    cd typescript-practices
 
 
