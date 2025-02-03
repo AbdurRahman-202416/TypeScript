@@ -41,6 +41,7 @@ console.log(ShowDetails(studentDetails)); // Output: Shanto Ahmed 26 Dhaka
     type ageType = {
     age: number;
     };
+    
 //uisng intersection type
     let employeeDetails: nameType & ageType = {
     firstName: "Shanto",
