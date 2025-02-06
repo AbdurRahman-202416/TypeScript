@@ -15,3 +15,4 @@ class Computer2 {
 const Mycomputer = new Computer2("HP", 8);
 
 console.log(Mycomputer.name);
+
