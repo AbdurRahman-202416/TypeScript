@@ -23,6 +23,7 @@ function combineObject(obj1, obj2) {
     return Object.assign(Object.assign({}, obj1), obj2);
 }
 combineObject({ name: "John" }, { age: 20 });
-combineObject({ name: "John" }, "20"); // Error: Argument of type '20' is not assignable to parameter of type 'object'.
+// Error: Argument of type '20' is not assignable to parameter of type 'object'.
+//  combineObject({ name: "John" }, "20");
 console.log(combineObject({ name: "John" }, { age: 20 }));
 //  {name: "John", age: 20}

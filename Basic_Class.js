@@ -36,3 +36,6 @@ Apple.showDetails()
 Microsoft.showDetails()
 console.log(Hp.cpu)
 console.log(Lenovo.ram)
+
+
+
